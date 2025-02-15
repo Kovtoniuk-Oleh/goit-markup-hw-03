@@ -251,6 +251,7 @@ img {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .motivatiom_item-text {
   color: var(--slate, #434455);
@@ -325,6 +326,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .conteiner_portfolio_list {
   display: flex;
@@ -345,12 +347,14 @@ img {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .conteiner_portfolio_text {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-right: 314px;
 }
 .border_container {
   border-bottom: 1px solid #e7e9fc;
@@ -359,6 +363,10 @@ img {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
+}
+.conteiner_portfolio_subtitle,
+.conteiner_portfolio_text {
+  text-align: left;
 }
 /*-------------------------------footer*/
 .footer {
