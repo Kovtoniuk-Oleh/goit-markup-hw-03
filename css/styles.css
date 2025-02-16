@@ -85,21 +85,16 @@ img {
 /*#----------------------------------header*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .container_header {
   display: flex;
-  /*align-items: center;*/
+
   justify-content: space-between;
 }
 .header_navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 15px;
 }
 .header_navigation_logo {
   padding: 24px 0;
@@ -135,11 +130,10 @@ img {
   letter-spacing: 0.02em; /* 0.32px */
 }
 .header_menu_link:hover {
-  /*color: var(--ocean, #404bbf);*/
+  color: var(--ocean, #404bbf);
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  color: #404bbf;
 }
 
 .header_menu_link:focus {
@@ -175,9 +169,6 @@ img {
   background: var(--navyblue, #2e2f42);
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1440px;
 }
 .hero_wrap {
 }
@@ -238,7 +229,6 @@ img {
   gap: 24px;
 }
 .motivation_menu_item {
-  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
